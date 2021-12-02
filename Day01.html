@@ -172,7 +172,7 @@ Answer:
               <meta charset="UTF-8">
               <meta http-equiv="X-UA-Compatible" content="IE=edge">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Document</title>
+              <title>Link</title>
           </head>
           <body>
               <a href="https://google.com" target= "_blank">google</a>
@@ -182,19 +182,44 @@ Answer:
 
 
 6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
-
-7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
-
-
-8.Use the table tag to design given image Click here.
 Answer:
-     <!DOCTYPE html>
+            
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Employee Type</title>
+</head>
+<body>
+<form>
+ <p>employee type:</p>
+    <input type="radio" id="salaried" name="Emp" value="salaried">
+    <label for="Salaried">Salaried</label><br>
+
+    <input type="radio" id="ownbusiness" name="Emp" value="own business">
+    <label for="own business">own business</label><br>
+</form>
+
+</body>
+</html>
+
+7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+
+8.Use the table tag to design given image Click here.
+            
+Answer:
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
 </head>
 <body  >
 
@@ -232,22 +257,41 @@ Answer:
     </tr>
    
 </table>
-
 </body>
 </html>
 
 9.Write HTML input tags snippet to show default values for all Form elements.
-
-10.In your, HTML page add the below line and Highlight it without using any CSS.
-  "HTML & CSS is awesome"
-Answer:          
- <!DOCTYPE html>
+Answer:
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>contact us</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname" value="Smit Donda"><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" value="Bhavnagar"><br><br>
+    </form>
+
+</body>
+</html>
+
+10.In your, HTML page add the below line and Highlight it without using any CSS.
+  "HTML & CSS is awesome"
+Answer:          
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark</title>
 </head>
 <body> 
     <p><mark>HTML & CSS is awesome</mark></p>
@@ -255,10 +299,46 @@ Answer:
 </html>
       
 11. Create an HTML page, which should contain all types of input elements.
+            
+Answer:
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Types Of Input</title>
+</head>
+<body>
+    Text:
+    <input type="text"><br><br>
 
+    Submit bottom:
+    <input type="submit" value="submit"><br><br>
+    
+    Checkbox
+    <input type="checkbox"><br><br>
 
+    Redio
+    <input type="radio"><br><br>
 
+    Date:
+    <input type="date"><br><br>
 
+    Datetime:
+    <input type="datetime-local"><br><br>
 
+    Time:
+    <input type="time"><br><br>
 
+    Email:
+    <input type="email"><br><br>
 
+    Password:
+    <input type="password"><br><br>
+
+</body>
+</html>
+            
